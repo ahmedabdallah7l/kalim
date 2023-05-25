@@ -19,7 +19,6 @@ firstItem.addEventListener("click",()=>
 })
 firstItem.addEventListener("click",()=>
 {
-    console.log("djhfjdfhj")
     let item=
     {
         productArabicName:`كليم تراثي صوف يدوي`,
@@ -29,7 +28,7 @@ firstItem.addEventListener("click",()=>
         `,
         productGermanInstruction:`Chemische Reinigung – Handwäsche mit kaltem Wasser – kein Trockner
         `,
-        productImage:"../images/cart 1.png",
+        productImage:"./images/cart 1.png",
         productName:"Heritage Wool Handmade Kilim",
         productContent:`Our Kilim is hand-loomed Egyptian Wool which is all 100% handmade. This piece comes from our Botanical collection. The motifs were designed by adapting the organic forms of various plants with geometrical, cultur-al, and folkloric motifs.Some of these were inspired by motifs from classic Persian which carry symbolic mean-ings. The artisans who made this product are making fair wages and preserving Egyptian cultural heritage by practicing a craft that has been passed down to them generation to generation. Purchasing this product allows us to continue our mission of reviving and susaining local crafts and empowering their communities.
         `,
@@ -52,7 +51,7 @@ secondItem.addEventListener("click",()=>
         `,
         productGermanInstruction:`Chemische Reinigung – Handwäsche mit kaltem Wasser – kein Trockner
         `,
-        productImage:"../images/cart 2.png",
+        productImage:"./images/cart 2.png",
         productName:`Balochy Wool Handmade Kilim
         `,
         productContent:`Our  Kilim is hand-loomed Egyptian Wool which is all 100% handmade. This piece comes from our geometric collection, so it was important that tribute was given to the traditional kilims that Assiut artisans were accus-tomed to crafting. The designs from this collection updated them by reducing the amount of colors used, as well as repeating the shapes to create more uniform patterns to add a sense of modernity. The artisans who made this product are making fair wages and preserving Egyptian cultural heritage by practicing a craft that has been passed down to them generation to generation.
@@ -77,7 +76,7 @@ thirdItem.addEventListener("click",()=>
         `,
         productGermanInstruction:`Chemische Reinigung – Handwäsche mit kaltem Wasser – kein Trockner
         `,
-        productImage:"../images/cart 3.png",
+        productImage:"./images/cart 3.png",
         productName:`Hersyen Wool Handmade Kilim
         `,
         productContent:`Unser Kelim beseht aus handgewebter ägyptischer Wolle, die zu 100 % handgefertigt is. Ein farbenfroher Ägypter hing leuchtend am Fenser des berühmten französischen Künslers Henri Matisse. Seine Liebe zu Textilien und insbe-sondere zu diesem Design, einer dekorativen Collage aus zusammengenähten Stoffragmenten. Die durch diese Sam-mlung  zu Ikonen der Kuns des 20. Jahrhunderts wurden. Die Handwerker, die dieses Produkt hergesellt haben, verdi-enen faire Löhne und bewahren das ägyptische Kulturerbe, indem sie ein Handwerk ausüben, das ihnen von Genera-tion zu Generation weitergegeben wurde. Der Kauf dieses Produkts ermöglicht es uns, unsere Mission.
@@ -102,7 +101,7 @@ forthItem.addEventListener("click",()=>
         productGermanInstruction:`Chemische Reinigung – Handwäsche mit kaltem Wasser – kein Trockner
         `,
         productArabicSize:`٧٠×١٤٥`,
-        productImage:"../images/cart 4.png",
+        productImage:"./images/cart 4.png",
         productName:`Qashqai Wool Handmade Kilim
         `,
         productContent:`Our  Kilim is hand-loomed Egyptian Wool which is all 100% handmade. This piece comes from our upper Egypt collection which was made as a tribute to this region where our beloved village of Assiut is located. That is shaped like a triangle, for this reason the triangle was the main design element used in. The form was manipulated to create traditional motifs. Purchasing this product allows us to continue our mission of reviv-ing and susaining local crafts and empowering their communities. The artisans who made this product are making fair wages and preserving Egyptian cultural.
