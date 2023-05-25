@@ -1,0 +1,49 @@
+@import url(../css/nav.css);
+body
+{
+    padding-top: 90px;
+    scroll-behavior: smooth;
+    overflow: none !important;
+    background:#F5F5F5 !important ;
+}
+nav
+{
+  background-color: white!important;
+}
+span
+{
+    color: #0a223b;
+}
+.kol
+{
+    color: #0a223b!important;
+    background-color:#f8d548!important;
+    transition: all 0.2s ease-in;
+    
+}
+.kol:hover
+{
+    
+    color: #f8d548!important;
+    background-color: #0a223b!important;
+}
+
+.img
+{
+    max-width: 400px;
+    min-height: 343px;
+    max-height: 343px;
+}
+.item
+{
+    background-color: white;
+    min-height: 550px;
+}
+.w-60
+{
+    width: 60%;
+}
+#custom
+{
+    font-size: 0.9rem!important;
+}

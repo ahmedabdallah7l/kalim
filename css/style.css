@@ -1,0 +1,109 @@
+@import url(../css/nav.css);
+ body
+ {
+    padding-top: 60px;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:#F5F5F5 !important ;
+    color: #0a223b;
+ }
+  nav
+  {
+    background-color: white!important;
+  }
+
+ .mainPattern 
+ {
+   background-image:url(../images/Home\ \(pattern\).png) ;
+   background-position: center;
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+   
+ }
+ .shape a
+{
+   background-color: #ed1c24;
+   color: #fff;
+   padding: 0.5rem 2.5rem;
+   font-size: 0.8rem;
+   display: inline-block;
+   text-decoration: none;
+   font-weight: 600;
+   position: relative;
+}
+ .shape a::before
+{
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color:#F5F5F5;
+    bottom:0px;
+    right: 135px;
+    transform: rotate(45deg);
+
+}
+.shape a::after
+{
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color:#F5F5F5;
+    bottom:0px;
+    left: 135px;
+    transform: rotate(45deg);
+}
+.home-para
+{
+    font-size: 1rem!important;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .itemOne img
+    {
+        width: 15% !important;
+
+    }
+    .itemOne h1
+    {
+        font-size: 1.5rem !important;
+        margin-top: 1rem !important;
+    }
+    .mainPattern
+    {
+        
+            background-image:url(../images/Home\ \(pattern\).png) ;
+            background-position: center;
+          background-size: 50% 100%;
+          background-position:top;
+          background-repeat: no-repeat;
+         
+    }
+  }
+
+  @media only screen and (max-width: 390px) 
+{
+
+    .itemOne h1
+    {
+        font-size: 1.5rem !important;
+        margin-top: 1rem !important;
+    }
+    .itemOne p
+    {
+        font-size: 0.8rem !important;
+    }
+    .mainPattern
+    {
+        
+            background-image:url(../images/Home\ \(pattern\).png) ;
+            background-position: center;
+          background-size: 60% 80%;
+          background-position:top;
+          background-repeat: no-repeat;
+         
+    }
+}

@@ -1,0 +1,25 @@
+@import url(../css/nav.css);
+
+body
+{
+    padding-top: 90px;
+    scroll-behavior: smooth;
+    overflow: none !important;
+    background:#F5F5F5 !important ;
+}
+#minus,#quantity,#plus
+{
+    border: 1px solid rgb(171, 166, 166);
+    padding-inline: 10px;
+    color: black;
+    cursor: po;
+}
+#checkOut
+{
+  color: white;
+  background-color: #ed1c24;
+}
+.w-20
+{
+    width: 20%;
+}

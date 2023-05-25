@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "arbic";
+    src: url(../Fonts/OnlineWebFonts_COM_bb0f0396c878493c88a6d65c44faf4e0/GE\ SS\ Two\ Light.ttf);
+  }
+   
+  
+  body
+  {
+    font-family: "arbic";
+    color: #0a223b;
+  }
+  nav
+   { 
+      background-color: white!important;
+      border: solid 0.5px rgb(223, 221, 221) !important;
+      padding-bottom: 0.8rem !important;
+   }
+   nav ul li a
+   {
+      font-size: 1.2rem!important;
+   }
+   /* .navbar-collaps
+   {
+     margin-right: 6rem;
+   } */
+  .active2
+  {
+      display: block;
+      width: 85%;
+      height: 2px;
+      background-color: #0a223b;
+  }
+   .page
+  {
+      display:inline-block;
+      
+  }
+  .page:hover::after
+  {
+     content: "";
+     background-color: var(--text-clr);
+     width: 95%;
+     height: 2px;
+     position: relative;
+     transition: all 0.3s ease-in-out;
+  }
+  
+  .page a
+  {
+      
+    list-style: none;
+    text-decoration: none;
+    color: var(--text-clr);
+    font-weight: var(--fw-400);
+  
+  }
+  .page a::after
+  {
+      content: "";
+      display: block;
+      width: 0%;
+      height: 2px;
+      background-color: #0a223b;
+      transition: all 0.5s ease-in;
+  }
+  .page:hover a::after
+  {
+      width: 85%;
+  }
+    span
+    {
+      color: #ed1c24;
+      font-weight: 700;
+    }
+   .navbar-nav a
+   {
+    margin-inline: 0.8rem;
+  
+   }

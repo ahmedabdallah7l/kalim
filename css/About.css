@@ -1,0 +1,39 @@
+@import url(../css/nav.css);
+body
+{
+    background:#F5F5F5 !important ;
+}
+#about h2
+{
+   font-size: 2rem;
+   color: #ed1c24;
+}
+nav
+{
+  background-color: white!important;
+}
+.carpet-container img
+{
+    position: absolute;
+    /* width: 500px;
+    height: 600px; */
+    width: 32%;
+    height: 80%;
+    top: 70px;
+    right:0;
+
+}
+
+.w-60
+{
+    width: 60%;
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    .carpet-container img
+    {
+        width: 40%;
+    }
+}
